@@ -1,0 +1,15 @@
+{                                                                                                                                                                                             
+    "version": "0.1.0",                                                                                                                                                                             "description": "LAN file-sharing server. Single self-contained executable.",
+    "homepage": "https://github.com/michaellwest/FileBeam",                                                                                                                                   
+    "license": "MIT",
+    "url": "https://github.com/michaellwest/FileBeam/releases/download/v0.1.0/filebeam-0.1.0-win-x64.exe#/filebeam.exe",
+    "hash": "33732788dc8d04e57e5697922c926eaf46036c9e9c5862c0db6d5a72740f26dd",
+    "bin": "filebeam.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/michaellwest/FileBeam/releases/download/v$version/filebeam-$version-win-x64.exe#/filebeam.exe",
+        "hash": {
+            "url": "https://github.com/michaellwest/FileBeam/releases/download/v$version/filebeam-$version-win-x64.exe.sha256"
+        }
+    }
+}
