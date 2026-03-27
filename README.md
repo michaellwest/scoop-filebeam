@@ -1,20 +1,25 @@
 # scoop-filebeam                                                                                                                                                                                 
 Scoop bucket for [FileBeam](https://github.com/michaellwest/FileBeam) — a LAN file-sharing server packed into a single executable.                                                               
 ## Usage                                                                                                                                                                                      
+### Installing
 
 ```powershell
 scoop bucket add filebeam https://github.com/michaellwest/scoop-filebeam
 scoop install filebeam
+```
 
-Then run:
-
+### Running
+```powershell
 filebeam --download C:\SharedFiles --port 9000
+```
 
-Updating
+### Updating
 
+```powershell
 scoop update filebeam
+```
 
-About FileBeam
+## About FileBeam
 
 Self-contained ASP.NET Core server for sharing files on your local network. Features include:
 
@@ -26,4 +31,3 @@ Self-contained ASP.NET Core server for sharing files on your local network. Feat
 - Single executable — no runtime required
 
 See the https://github.com/michaellwest/FileBeam#readme for full documentation.
-```
